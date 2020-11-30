@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo docker build -t mutillidae .
+sudo docker-compose -f mutillidae.yml build

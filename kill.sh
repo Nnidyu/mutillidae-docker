@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo docker stop mutillidae mysql
-sudo docker rm mutillidae mysql
+sudo docker-compose -f mutillidae.yml kill
+sudo docker-compose -f mutillidae.yml rm
